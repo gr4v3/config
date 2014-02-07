@@ -1,0 +1,147 @@
+/* 
+    Document   : index
+    Created on : 12/Abr/2013, 22:35:16
+    Author     : Utilizador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    padding:10px;
+}
+
+.config {
+    
+}
+.config tr th {
+    text-align:center;
+}
+.config tbody tr td {
+    border:none;
+    /*border-left:1px solid #aaa;*/
+    text-align:center;
+}
+.config tbody tr td:first-child {
+    border:none;
+}
+.config tfoot tr td {
+    border:none;
+    text-align:center;
+}
+.logout {
+    text-align:left;
+}
+.center {
+    margin:0 auto;
+    text-align:center;
+}
+.config-item {
+    float:left;
+    line-height: 26px;
+    padding-left: 6px;
+    width: 93%;
+}
+.nav {
+    margin-bottom: 0px !important;
+}
+.nav-stacked .icon-ok, .nav-stacked .icon-trash {
+    margin-top:5px;
+}
+.icon-ok, .icon-trash {
+    cursor:pointer;
+}
+.nav-stacked li a div {
+    overflow:hidden;
+}
+.nav-pills > li > a {
+    padding:0px !important;
+}
+.content-new {
+    margin-top: 6px;
+}
+.content-items {
+    /*margin-left: -28px;*/
+    margin-bottom:4px;
+    overflow:hidden;
+}
+.content-items div {
+    margin-bottom:2px;
+}
+.content-items .item {
+    float:left;
+}
+.content-items .icons {
+    float:left;
+}
+.content-items .icon-trash {
+    margin-right: 18px;
+    width: 14px !important;
+}
+.border {
+    border-top:1px solid #aaa;
+    margin-top:10px;
+    padding:10px;
+}
+.main {
+    overflow:hidden;
+    margin-top:10px;
+}
+.main .item {
+    float:left;
+    margin: 0 4px;
+    width: 400px;
+}
+.main .item div .btn-success {
+    margin:2px;
+}
+.main .item .title {
+    text-align:center;
+}
+.admin .logout {
+    overflow:hidden;
+}
+.admin .logout .panel {
+    float:left;
+}
+.admin .logout .menu {
+    float:right;
+}
+.admin .user div {
+    margin:4px;
+}
+
+.admin .environment {
+    width:80%;
+    padding:20px;
+}
+.admin .environment table {
+    width:100%;
+    table-layout: auto;
+}
+.admin .environment .item {
+    cursor:pointer;   
+}
+.admin .environment .item:hover {
+    cursor:pointer;
+    background-color:#eeeeee;
+}
+.admin .environment .item td:last-child {
+    width: 40px;
+}
+.admin .create {
+    width:390px;
+    padding:20px 100px 20px 0px;
+}
+.admin .create div {
+    padding:2px;
+    text-align: right;
+}
+.admin .create label {
+    width: 150px;
+    text-align: right;
+}
+

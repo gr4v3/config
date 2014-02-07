@@ -1,0 +1,7 @@
+<div class="center">
+    <h3>Create a new namespace</h3>
+    <input type="text" name="name" class="input-medium" placeholder="Name" />
+    <input type="submit" name="create" class="btn btn-success" value="do it!" />
+    <input type="button" onclick="javascript:Config.cancel('{base_url}manager');" name="cancel" class="btn btn-warning" value="cancel" />
+    <input type="hidden" name="action" value="create" />
+</div>

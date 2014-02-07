@@ -1,0 +1,18 @@
+<div class="center create">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="">
+    </div>
+    <div>
+        <label for="domain">Domain</label>
+        <input type="text" name="domain" id="domain" value="">
+    </div>
+    <div>
+        <label for="ip">Host IP</label>
+        <input type="text" name="ip" id="ip" value="">
+    </div>
+    <div align="right">
+        <input type="submit" name="create" class="btn btn-success" value="do it!" />
+        <input type="button" onclick="javascript:Config.cancel('{base_url}admin/environment');" name="cancel" class="btn btn-warning" value="cancel" />
+    </div>
+</div>

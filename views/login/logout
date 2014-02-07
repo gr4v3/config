@@ -1,0 +1,3 @@
+<div class="logout">
+    <a class="btn btn-danger" href="{base_url}/logout">logout</a>
+</div>

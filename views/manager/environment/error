@@ -1,0 +1,4 @@
+<div class="center">
+    <h3>{message}</h3>
+    <input type="button" onclick="javascript:Config.cancel('/manager/');" name="ok" class="btn btn-warning" value="ok" />
+</div>

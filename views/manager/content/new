@@ -1,0 +1,5 @@
+<div class="content-new">
+    <input class="input-medium" type="text" name="contentnew[index][]" value="" placeholder="Variable" />
+    <input class="input-medium" type="text" name="contentnew[value][]" value="" placeholder="Value" />
+    <input class="btn btn-success" type="submit" name="add" value="add" />
+</div>

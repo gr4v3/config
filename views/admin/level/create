@@ -1,0 +1,28 @@
+<div class="center create">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="">
+    </div>
+    <div>
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description" value="">
+    </div>
+    <div>
+        <label for="is_admin">Is Admin</label>
+        <select name="is_admin" id="is_admin" title="{is_Admin}" class="select_value"> 
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+    </div>
+    <div>
+        <label for="name">Active</label>
+        <select name="active" id="active"> 
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+    </div>
+    <div align="right">
+        <input type="submit" name="create" class="btn btn-success" value="do it!" />
+        <input type="button" onclick="javascript:Config.cancel('{base_url}admin/level');" name="cancel" class="btn btn-warning" value="cancel" />
+    </div>
+</div>

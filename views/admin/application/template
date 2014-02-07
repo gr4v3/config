@@ -1,0 +1,38 @@
+<div class="center environment">
+    <table class="table">  
+        <thead>  
+          <tr>  
+            <th>#</th>  
+            <th>name</th>  
+            <th>description</th>  
+            <th>level</th>
+            <th>created</th>
+            <th>active</th>
+            <th>&nbsp;</th>
+          </tr>  
+        </thead>  
+        <tbody>  
+          {application_items}
+            <tr class="item">  
+                <td>{application_id}</td>  
+                <td>{name}</d>  
+                <td>{description}</td>  
+                <td>{level_id}</td>
+                <th>{created}</th>
+                <td>{active}</td>
+                <td>
+                    <a class="icon-edit" href="{base_url}admin/application/modify/{application_id}"></a>
+                    <a class="icon-trash" href="{base_url}admin/application/delete/{application_id}"></a>
+                </td>
+            </tr> 
+          {/application_items}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" style="text-align:right;">
+                    <a class="label label-important" href="{base_url}admin/application/create">new</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

@@ -1,0 +1,36 @@
+<div class="center environment">
+    <table class="table">  
+        <thead>  
+          <tr>  
+            <th>#</th>  
+            <th>name</th>  
+            <th>domain</th>  
+            <th>ip</th>
+            <th>created</th>
+            <th>&nbsp;</th>
+          </tr>  
+        </thead>  
+        <tbody>  
+          {environment_items}
+            <tr class="item">  
+                <td>{environment_id}</td>  
+                <td>{name}</d>  
+                <td>{domain}</td>  
+                <td>{ip}</td>
+                <td>{created}</td>
+                <td>
+                    <a class="icon-edit" href="{base_url}admin/environment/modify/{environment_id}"></a>
+                    <a class="icon-trash" href="{base_url}admin/environment/delete/{environment_id}"></a>
+                </td>
+            </tr> 
+          {/environment_items}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" style="text-align:right;">
+                    <a class="label label-important" href="{base_url}admin/environment/create">new</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

@@ -1,0 +1,1 @@
+{"columns":{"name":{"length":26,"type":"TEXT"},"domain":{"length":250,"type":"TEXT"},"ip":{"length":10,"type":"INTEGER"},"created":{"length":64,"type":"INTEGER"},"active":{"length":2,"type":"INTEGER"},"environment_id":{"length":20,"type":"INTEGER PRIMARY KEY"}},"index":["ip","active"]}

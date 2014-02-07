@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>8xbiz config manager</title>
+      {head}
+   </head>
+   <body>
+        <div>
+            <form class="form-inline" method="post" name="manager">
+                <fieldset> 
+                {content}
+                </fieldset>
+                <input type="hidden" name="application" value="{application_post}" />
+                <input type="hidden" name="environment" value="{environment_post}" />
+                <input type="hidden" name="namespaces" value="{namespaces_post}" />
+            </form>
+        </div>
+   </body>
+</html>

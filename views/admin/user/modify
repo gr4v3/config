@@ -1,0 +1,31 @@
+<div class="center create">
+    <div>
+        <label for="user">Username</label>
+        <input type="text" name="user" id="user" value="{user}">
+    </div>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="{name}">
+    </div>
+    <div>
+        <label for="pass">New Password</label>
+        <input type="text" name="pass" id="pass" value="">
+    </div>
+    <div>
+        <label for="confirmpass">Confirm New Password</label>
+        <input type="text" name="confirmpass" id="confirmpass" value="">
+    </div>
+    <div>
+        <label for="level">level</label>
+        <select name="level_id" class="select_value" title="{level_id}">
+            {options}
+                <option value="{level_id}">{name}</option>
+            {/options}
+        </select>
+    </div>
+    <div align="right">
+        <input type="hidden" name="user_id" value="{user_id}" />
+        <input type="submit" name="modify" class="btn btn-success" value="do it!" />
+        <input type="button" onclick="javascript:Config.cancel('{base_url}admin/user');" name="cancel" class="btn btn-warning" value="cancel" />
+    </div>
+</div>

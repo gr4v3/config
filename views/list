@@ -1,0 +1,26 @@
+<div class="main">
+    <div class="item">
+        <div class="title">Application</div>
+        <div>
+            {applications}
+            <div><a class="btn btn-success" href="javascript:Config.application.assign();">add</a></div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="title">Environment</div>
+        <div>
+            {environments}
+            <div><a class="btn btn-success" href="javascript:Config.environment.assign();">add</a></div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="title">Namespace</div>
+        <div>
+            {namespaces}
+            <div><a class="btn btn-success" href="javascript:Config.namespaces.assign();">add</a></div>
+        </div>
+    </div>
+</div>
+<div class="center border">
+    {content}
+</div>

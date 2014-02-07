@@ -1,0 +1,47 @@
+<div class="center create">
+    <div>
+        <label for="hash">Client Hash</label>
+        <input type="text" name="hash" id="hash" value="{hash}" readonly="true">
+    </div>
+    <div>
+        <label for="logged">Logged</label>
+        <select name="logged" id="logged" title="{logged}" class="select_value">
+            <option value="0">initialize</option>
+            <option value="1">connected</option>
+            <option value="2">authenticated</option>
+        </select>
+    </div>
+    <div>
+        <label for="modified">Modified</label>
+        <input type="text" name="modified" id="modified" value="{modified}">
+    </div>
+    <div>
+        <label for="created">Created</label>
+        <input type="text" name="created" id="created" value="{created}">
+    </div>
+    <div>
+        <label for="redirect">Redirect</label>
+        <input type="text" name="redirect" id="redirect" value="{redirect}">
+    </div>
+    <div>
+        <label for="user">User</label>
+        <input type="text" name="user" id="user" value="{user}" readonly="true">
+    </div>
+    <div>
+        <label for="ip">User Ip</label>
+        <input type="text" name="ip" id="ip" value="{ip}" readonly="true">
+    </div>
+    <div>
+        <label for="level_id">Logged</label>
+        <select name="level_id" id="level_id" title="{level_id}" class="select_value">
+            {levels}
+                <option value="{level_id}">{name}</options>
+            {/levels}
+        </select>
+    </div>
+    <div align="right">
+        <input type="hidden" name="session_id" value="{session_id}" />
+        <input type="submit" name="modify" class="btn btn-success" value="do it!" />
+        <input type="button" onclick="javascript:Config.cancel('{base_url}admin/session');" name="cancel" class="btn btn-warning" value="cancel" />
+    </div>
+</div>

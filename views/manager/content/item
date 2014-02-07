@@ -1,0 +1,6 @@
+<div>
+    <input class="input-medium" type="text" name="content[index][{count}]" value="{index}" placeholder="Variable" />
+    <input class="input-medium" type="text" name="content[value][{count}]" value="{value}" placeholder="Value" />
+    <span class="icon-ok" onclick="javascript:Config.content.update('{index}');"></span>
+    <span class="icon-trash" onclick="javascript:Config.content.erase('{index}');"></span>
+</div>

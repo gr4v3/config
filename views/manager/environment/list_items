@@ -1,0 +1,8 @@
+<li class="{active}">
+    <a href="javascript:;">
+        <div>
+            <div class="config-item" onclick="javascript:Config.environment.select('{name}');">{name}</div>
+            <div class="icon-trash icon-white" onclick="javascript:Config.environment.unassign('{name}');"></div>
+        </div>
+    </a>
+</li>

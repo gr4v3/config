@@ -1,0 +1,8 @@
+<div>
+<div class="content-items">
+    {items}
+</div>
+{new}
+<input type="hidden" name="remove" value="" />
+<input type="hidden" name="update" value="" />
+</div>

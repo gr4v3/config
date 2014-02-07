@@ -1,0 +1,4 @@
+<div class="logout">
+    <a class="btn btn-danger" href="{base_url}logout">logout</a>
+    <a class="btn btn-warning" href="{base_url}admin">admin</a>
+</div>

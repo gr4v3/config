@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>8xbiz config admin</title>
+      {head}
+   </head>
+   <body>
+        <div>
+            <form action="{base_url}{action}" class="form-inline admin" method="post" name="manager">
+                <fieldset> 
+                <div class="logout">
+                    <div class="panel">
+                        <a class="btn btn-danger" href="{base_url}logout">logout</a>
+                        <a class="btn btn-warning" href="{base_url}manager">manager</a>
+                    </div>
+                    <div class="menu">
+                        <a class="btn btn-info" href="{base_url}admin/session">sessions</a>
+                        <a class="btn btn-info" href="{base_url}admin/user">users</a>
+                        <a class="btn btn-info" href="{base_url}admin/level">level</a>
+                        <a class="btn btn-info" href="{base_url}admin/application">applications</a>
+                        <a class="btn btn-info" href="{base_url}admin/environment">environments</a>
+                    </div>
+                </div>
+                {content}
+                </fieldset>
+            </form>
+        </div>
+   </body>
+</html>

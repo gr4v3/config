@@ -1,0 +1,6 @@
+<div>First time Access</div>
+<div>This will create the Admin user</div>
+<input type="text" name="user" class="input-small" placeholder="User" />
+<input type="text" name="pass" class="input-small" placeholder="Pass" />
+<input type="hidden" name="action" value="firsttime" />
+<input class="btn btn-success" type="submit" value="create" />
