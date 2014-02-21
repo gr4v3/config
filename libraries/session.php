@@ -87,10 +87,7 @@ class Session extends Load {
         $now = mktime();
         $this->godsql->session->where(array('hash' => $session_id));
         $this->godsql->session->update(array('modified' => $now));
-        $this->godsql->session->where(array(
-            'modified' => '<' . ($now - $this->config->session_lifespan),
-            'user_id' => ''
-        ));
+        $this->godsql->session->where(array('modified' => '<' . ($now - $this->config->session_lifespan)));
         $this->godsql->session->delete();
         $this->godsql->session->where(array('hash' => $session_id));
         $results = $this->godsql->session->select();
