@@ -50,6 +50,8 @@ body {
 }
 .nav-stacked .icon-ok, .nav-stacked .icon-trash {
     margin-top:5px;
+    float: right;
+    margin-right: 5px;
 }
 .icon-ok, .icon-trash {
     cursor:pointer;
