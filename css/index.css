@@ -93,7 +93,8 @@ body {
 .main .item {
     float:left;
     margin: 0 4px;
-    width: 400px;
+    width: 32%;
+    min-width: 400px;
 }
 .main .item div .btn-success {
     margin:2px;
