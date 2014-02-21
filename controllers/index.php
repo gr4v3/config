@@ -34,12 +34,12 @@ class Index extends Load {
     public function start() {
         //$this->include->folder('sockets');
 
-        $this->include->file('sockets/socket');
-        $this->include->file('sockets/socketClient');
-        $this->include->file('sockets/socketDaemon');
-        $this->include->file('sockets/socketServer');
-        $this->include->file('sockets/socketServerClient');
-        $this->include->file('configServer');
+        $this->include->file('includes/sockets/socket');
+        $this->include->file('includes/sockets/socketClient');
+        $this->include->file('includes/sockets/socketDaemon');
+        $this->include->file('includes/sockets/socketServer');
+        $this->include->file('includes/sockets/socketServerClient');
+        $this->include->file('includes/configServer');
         
         ini_set('mbstring.func_overload', '0');
         ini_set('output_handler', '');
