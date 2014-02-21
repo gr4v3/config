@@ -93,13 +93,13 @@ body {
     margin-top:10px;
 }
 .main .item {
-    float:left;
-    margin: 0 4px;
-    width: 32%;
+    float: left;
+    margin: 0 3px;
+    width: 33%;
     min-width: 400px;
 }
 .main .item div .btn-success {
-    margin:2px;
+    margin: 2px 0px;
 }
 .main .item .title {
     text-align:center;
